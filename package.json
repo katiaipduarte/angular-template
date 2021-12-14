@@ -13,7 +13,9 @@
     "prepare": "husky install",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
-    "build-storybook": "npm run docs:json && build-storybook"
+    "build-storybook": "npm run docs:json && build-storybook",
+    "build:docker": "docker image build -t angular-template .",
+    "start:docker": "docker run -p 3000:80 --rm angular-template"
   },
   "private": true,
   "dependencies": {
