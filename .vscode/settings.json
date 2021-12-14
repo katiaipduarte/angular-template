@@ -1,0 +1,12 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "npm.packageManager": "npm",
+  "eslint.packageManager": "npm",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.ignorePath": ".prettierignore",
+  "scss.lint.unknownAtRules": "ignore"
+}
